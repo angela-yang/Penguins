@@ -3,7 +3,6 @@ let text2 = document.getElementById('text2');
 let back1 = document.getElementById('back1');
 let back2 = document.getElementById('back2');
 let back3 = document.getElementById('back3');
-let back5 = document.getElementById('back5');
 
 window.addEventListener('scroll', () => {
   let value = window.scrollY;
@@ -12,7 +11,6 @@ window.addEventListener('scroll', () => {
   back1.style.left = value * 2.5 + 'px';
   back2.style.left = value * -1.5 + 'px';
   back3.style.top = value * 2.5 + 'px';
-  back5.style.top = value * 2.5 + 'px';
 });
 
 window.addEventListener('scroll', function () {
@@ -21,11 +19,11 @@ window.addEventListener('scroll', function () {
   var triggerPoint1 = textBox1.offsetTop - window.innerHeight + textBox1.offsetHeight;
   var triggerPoint2 = textBox2.offsetTop - window.innerHeight + textBox2.offsetHeight;
 
-  if (window.pageYOffset >= triggerPoint1) {
+  if (window.scrollY >= triggerPoint1) {
     textBox1.classList.add('animate');
   }
 
-  if (window.pageYOffset >= triggerPoint2) {
+  if (window.scrollY >= triggerPoint2) {
     textBox2.classList.add('animate');
   }
 });
