@@ -9,7 +9,7 @@ app.use(express.json())
 
 
 
-app.use(express.static(path.join(__dirname, '/static')))
+app.use(express.static(path.join(__dirname, '.templates/assets')))
 
 app.get('/', (req, res) => {
     console.log('here')
