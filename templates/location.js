@@ -43,7 +43,7 @@ if ("geolocation" in navigator) {
   navigator.geolocation.watchPosition(
     function(position) {
       currentPosition = position;
-      calculateAndLogVelocity(previousPosition, currentPosition);
+      calculateAndLogVelocity(previousPosition, currentPosition); // this is the speed of the person
       previousPosition = position;
     },
     function(error) {
