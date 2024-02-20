@@ -13,7 +13,7 @@ body {
     background-image: url("assets/Background.png");
     min-height: 100vh;
     background-size: 1500px;
-    background-position: center;
+    background-position-y: -105px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -32,9 +32,9 @@ header {
 
 .title p {
     color: #000000;
-    padding: 6px;
+    padding: 0px;
     border-radius: 20px;
-    margin: 0 10px;
+    margin: 0 20px;
     font-weight: 100;
 }
 
@@ -42,8 +42,29 @@ header {
     color: #000000;
     padding: 10px;
     border-radius: 20px;
-    margin: 10 10px;
+    margin: 0 10px;
     font-weight: 200;
+}
+
+.adopt h1 {
+    color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.adopt p {
+    color: #000000;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
 }
 
 .navigation a {
@@ -70,327 +91,147 @@ header {
     padding: 0;
 }
 
-.iceberg img {
+.iceberg #berg1 {
     position: absolute;
     top: -10%;
     left: -5%;
     width: 50vh;
 }
 
-.iceberg2 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg2 img {
+.iceberg #berg2 {
     position: absolute;
     top: 5%;
     left: 47%;
     width: 50vh;
 }
 
-.iceberg3 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg3 img {
+.iceberg #berg3 {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 50vh;
 }
 
-.iceberg4 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg4 img {
+.iceberg #berg4 {
     position: absolute;
     top: 20%;
     left: 90%;
     width: 50vh;
 }
 
-.iceberg5 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg5 img {
+.iceberg #berg5 {
     position: absolute;
     top: 30%;
-    left: 5%;
+    left: -2%;
     width: 50vh;
 }
 
-.iceberg6 {
+.iceberg #berg6 {
     position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg6 img {
-    position: absolute;
-    top: -15%;
+    top: -18%;
     left: 55%;
     width: 50vh;
 }
 
-.iceberg7 {
+.iceberg #berg7 {
     position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg7 img {
-    position: absolute;
-    top: 5%;
-    left: 90%;
+    top: 3%;
+    left: 92%;
     width: 40vh;
 }
 
-.iceberg8 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg8 img {
+.iceberg #berg8 {
     position: absolute;
     top: 50%;
     left: 40%;
     width: 25vh;
 }
 
-.iceberg9 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg9 img {
+.iceberg #berg9 {
     position: absolute;
     top: 30%;
     left: 40%;
     width: 30vh;
 }
 
-.iceberg10 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg10 img {
+.iceberg #berg10 {
     position: absolute;
     top: 40%;
     left: 75%;
     width: 30vh;
 }
 
-.iceberg11 {
+.iceberg #berg11 {
     position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg11 img {
-    position: absolute;
-    top: 10%;
+    top: 12%;
     left: 12%;
     width: 45vh;
 }
 
-.iceberg12 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg12 img {
+.iceberg #berg12 {
     position: absolute;
     top: 63%;
     left: 20%;
     width: 45vh;
 }
 
-.iceberg13 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg13 img {
+.iceberg #berg13 {
     position: absolute;
     top: 45%;
     left: 100%;
     width: 40vh;
 }
 
-.iceberg14 {
+.iceberg #berg14 {
     position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg14 img {
-    position: absolute;
-    top: 5%;
+    top: 0%;
     left: 150%;
     width: 25vh;
 }
 
-.iceberg15 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg15 img {
+.iceberg #berg15 {
     position: absolute;
     top: 69%;
     left: 80%;
     width: 30vh;
 }
 
-.iceberg16 {
+.iceberg #berg16 {
     position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg16 img {
-    position: absolute;
-    top: 10%;
-    left: 120%;
+    top: 8%;
+    left: 130%;
     width: 50vh;
 }
 
-.iceberg17 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg17 img {
+.iceberg #berg17 {
     position: absolute;
     top: 40%;
     left: 130%;
     width: 30vh;
 }
 
-.iceberg18 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg18 img {
+.iceberg #berg18 {
     position: absolute;
     top: 90%;
     left: 10%;
     width: 50vh;
 }
 
-.iceberg19 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg19 img {
+.iceberg #berg19 {
     position: absolute;
     top: 50%;
     left: 140%;
     width: 50vh;
 }
 
-.iceberg20 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg20 img {
+.iceberg #berg20 {
     position: absolute;
     top: 60%;
     left: 100%;
     width: 50vh;
 }
 
-.iceberg21 {
-    position: absolute;
-    display: flex;
-    justify-content: left;
-    height: 100vh;
-    width: 100vh;
-    padding: 0;
-}
-
-.iceberg21 img {
+.iceberg #berg21 {
     position: absolute;
     top: 55%;
     left: -15%;
@@ -408,7 +249,28 @@ header {
 
 .polar img {
     position: absolute;
-    top: 35%;
-    left: 80%;
+    top: 34%;
+    left: 79%;
     width: 20vh;
+}
+
+.polar #polar1 {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    width: 50vh;
+}
+
+.polar #polar2 {
+    position: absolute;
+    top: 3%;
+    left: 63%;
+    width: 50vh;
+}
+
+.polar #polar3 {
+    position: absolute;
+    top: 3%;
+    left: 110%;
+    width: 50vh;
 }
