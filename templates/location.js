@@ -7,6 +7,7 @@ if ("geolocation" in navigator) {
     if (previousPosition && currentPosition) {
       try {
         const timeDifference = (currentPosition.timestamp - previousPosition.timestamp) / 1000; // Convert milliseconds to seconds
+        timeDifference = timeDifference / 3600; // Converting seconds to hours
         const distanceDifference = calculateDistance(previousPosition.coords, currentPosition.coords);
 
         // Validate distance before calculating velocity
@@ -49,7 +50,8 @@ if ("geolocation" in navigator) {
     function(error) {
       console.error("Error getting user location:", error);
     },
-    { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
+    { enableHighAccuracy: true, maximumAge: 0 }
+    // { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
   );
 } else {
   console.error("Geolocation is not supported by this browser.");
