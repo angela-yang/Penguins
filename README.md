@@ -2,6 +2,8 @@
 ## What It Does
 Through this app, the user adopts a pet polar bear, which they must keep safe from icebergs melting due to their carbon footprint. The app tracks the user's location to find their travel velocity, which is used to determine whether they are driving in a car. If they are driving, a certain amount of ice melts depending on the miles traveled.
 
+Access it here: [https://penguins-1.onrender.com/](https://penguins-1.onrender.com/)
+
 ![Background 2](https://github.com/angela-yang/Penguins/assets/43125640/d2105367-e66b-47ec-bacd-72e0f14c8c40)
 
 ## Implementing For Yourself
